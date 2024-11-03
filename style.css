@@ -1,0 +1,51 @@
+@keyframes diwali {
+    0%{
+        background-color: #81abeb
+    }
+
+    25%{
+        background-color: #8c81eb;
+    }
+
+    50%{
+        background-color: #45c3cc;
+    }
+
+    75%{
+        background-color: #d95bde;
+    }
+
+    100%{
+        background-color: #de5bc6;
+    }
+}
+div{
+    width: 600px;
+    height: 600px;
+    background-color: #6379f2;
+    animation-name: diwali;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+
+
+#grad1 {
+    height: 750px;
+    width: 750px;
+
+    background-image: linear-gradient(to top left,#ed8ecc, #b168ec , #6240de, #514ef8, #1639ac );
+}
+
+h1{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+}
+
